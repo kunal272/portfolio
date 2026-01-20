@@ -1,4 +1,5 @@
 (function () {
+    console.log(baseUrl);
     const a = document.createElement("link").relList;
     if (a && a.supports && a.supports("modulepreload")) return;
     for (const u of document.querySelectorAll('link[rel="modulepreload"]'))
@@ -20351,10 +20352,12 @@ const o6 = r6,
         });
     },
     u6 =
-        "I’m Harsh Kumar, a passionate Software Developer and Founder of NXTVEL Technologies. I specialize in building fast, scalable, and secure web applications using the MERN stack (MongoDB, Express, React, Node.js) and Next.js. I focus on system design, performance optimization, and automation to deliver real-world business value.",
+        "I’m Kunal Bhosale, a passionate Software Developer and Founder of NXTVEL Technologies. I specialize in building fast, scalable, and secure web applications using the MERN stack (MongoDB, Express, React, Node.js) and Next.js. I focus on system design, performance optimization, and automation to deliver real-world business value.",
     c6 = "Software Developer & Founder",
-    f6 = "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile-lit.png",
-    d6 = "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile.png",
+    // f6 = "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile-lit.png",
+    // d6 = "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile.png",
+    f6 = baseUrl + "/public/assets/image/kunalbg.png",
+    d6 = baseUrl + "/public/assets/image/kunalbg.png",
     h6 = [
         {
             title: "Frontend Developer & Team Lead",
@@ -22196,7 +22199,7 @@ const aw = () => {
                                                     style: {
                                                         color: n.primaryColor,
                                                     },
-                                                    children: "Harsh Kumar",
+                                                    children: "Kunal Bhosale",
                                                 }),
                                                 v.jsx("p", {
                                                     className:
@@ -22333,7 +22336,7 @@ const aw = () => {
                                                 style: {
                                                     color: n.primaryColor,
                                                 },
-                                                children: "Harsh",
+                                                children: "Kunal",
                                             }),
                                         }),
                                         " · Coded with intent, designed with care.",
@@ -23600,7 +23603,7 @@ const Yc = localStorage.getItem("theme") || "dark",
                                 style: { color: p.primaryColor },
                                 children: "{ ",
                             }),
-                            "Harsh",
+                            "Kunal",
                             v.jsx("span", {
                                 style: { color: p.primaryColor },
                                 children: " }",
@@ -23639,7 +23642,7 @@ const Yc = localStorage.getItem("theme") || "dark",
                         className: "flex items-center gap-4",
                         children: [
                             v.jsx("a", {
-                                href: "./Harsh_Doc.pdf",
+                                href: "./Kunal_Doc.pdf",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 children: v.jsxs("button", {
@@ -24351,7 +24354,7 @@ function Fw() {
                         style: { "--mouse-x": "50%", "--mouse-y": "50%" },
                         children: [
                             v.jsx("img", {
-                                alt: "Harsh - Software Developer (Lit)",
+                                alt: "Kunal - Software Developer (Lit)",
                                 src: Ll.imageLit,
                                 className:
                                     "absolute top-[58%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none",
@@ -24363,7 +24366,7 @@ function Fw() {
                                 },
                             }),
                             v.jsx("img", {
-                                alt: "Harsh - Software Developer",
+                                alt: "Kunal - Software Developer",
                                 src: Ll.image,
                                 className:
                                     "absolute top-[58%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-200 ease-out pointer-events-none",
@@ -25135,7 +25138,7 @@ const Py = [
     },
     {
         title: "Modern Portfolio",
-        subtitle: "Harsh - Full Stack Developer",
+        subtitle: "Kunal - Full Stack Developer",
         description:
             "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with custom theme controls: light/dark toggle + ",
         tags: [

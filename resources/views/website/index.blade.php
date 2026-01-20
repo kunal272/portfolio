@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Harsh | Software Developer &amp; Designer</title>
+    <title>Kunal | Software Developer &amp; Designer</title>
 
     <meta name="description"
-        content="Portfolio of Harsh — a Software Developer &amp; Designer specializing in high-performance, type-safe, and secure web applications using Tailwind CSS and advanced architectural patterns.">
+        content="Portfolio of Kunal — a Software Developer &amp; Designer specializing in high-performance, type-safe, and secure web applications using Tailwind CSS and advanced architectural patterns.">
     <meta name="keywords"
-        content="Harsh, Next.js Developer, TypeScript Developer, Full-Stack Developer, MERN Stack, React Developer, Convex, Clerk, TanStack Query, Portfolio, UI/UX Designer">
-    <meta name="author" content="Harsh">
+        content="Kunal, Next.js Developer, TypeScript Developer, Full-Stack Developer, MERN Stack, React Developer, Convex, Clerk, TanStack Query, Portfolio, UI/UX Designer">
+    <meta name="author" content="Kunal">
     <meta name="robots" content="index, follow">
     <!-- <meta name="theme-color" content="#171717" /> <link rel="icon" type="image/svg+xml" href="/icons/favicon.ico" /> -->
     <!-- <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
     <meta property="og:url" content="https://harsh-portfolio-iota-six.vercel.app/">
-    <meta property="og:title" content="Harsh | Software Developer &amp; Designer">
+    <meta property="og:title" content="Kunal | Software Developer &amp; Designer">
     <meta property="og:description"
         content="Building high-performance applications with Next.js, TypeScript, and modern services. Expertise in state management and code quality.">
     <meta property="og:image" content="/og-image.webp">
@@ -30,19 +30,23 @@
     <meta property="og:image:height" content="630">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@@Harsh">
+    <meta name="twitter:creator" content="@@Kunal">
     <meta name="twitter:url" content="https://harsh-portfolio-iota-six.vercel.app/">
-    <meta name="twitter:title" content="Harsh | Software Developer &amp; Designer">
+    <meta name="twitter:title" content="Kunal | Software Developer &amp; Designer">
     <meta name="twitter:description"
         content="Explore the work of a Software Developer &amp; Designer focused on modern App Router architecture, type-safe development, and professional code standards.">
     <meta name="twitter:image" content="/og-image.webp">
+
+    <script>
+        const baseUrl = "{{ url('/') }}";
+    </script>
 
     @verbatim
         <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Harsh",
+        "name": "Kunal",
         "jobTitle": "Software Developer & Designer",
         "url": "https://harsh-portfolio-iota-six.vercel.app",
         "sameAs": [
@@ -102,7 +106,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center"><a href="#"
                     aria-label="Homepage"
                     class="text-2xl sm:text-3xl font-bold hover:rotate-2 transition-transform duration-300"
-                    style="color: rgb(245, 245, 245);"><span style="color: rgb(16, 104, 244);">{ </span>Harsh<span
+                    style="color: rgb(245, 245, 245);"><span style="color: rgb(16, 104, 244);">{ </span>Kunal<span
                         style="color: rgb(16, 104, 244);"> }</span></a>
                 <nav class="hidden md:flex items-center gap-8"><a href="#about"
                         class="relative group py-2 transition-colors duration-300 font-medium"
@@ -125,7 +129,7 @@
                         style="color: rgb(245, 245, 245);">Contact<span
                             class="absolute bottom-0 left-0 h-0.5 transition-all duration-300 w-0 group-hover:w-full"
                             style="background-color: rgb(16, 104, 244);"></span></a></nav>
-                <div class="flex items-center gap-4"><a href="./Harsh_Doc.pdf" target="_blank"
+                <div class="flex items-center gap-4"><a href="./Kunal_Doc.pdf" target="_blank"
                         rel="noopener noreferrer"><button
                             class="hidden md:flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-white hover:shadow-lg transition-all duration-300 cursor-pointer"
                             style="background: linear-gradient(135deg, rgb(16, 104, 244), rgb(6, 60, 188));">Resume
@@ -177,14 +181,14 @@
                                 <div class="mt-6 sm:mt-4">
                                     <h1 class="font-bold text-3xl md:text-5xl md:leading-tight max-w-3xl mx-auto"
                                         style="color: rgb(245, 245, 245);">Hey! I'm <span
-                                            style="color: rgb(16, 104, 244);">Harsh</span> <br> A <span><span
+                                            style="color: rgb(16, 104, 244);">Kunal</span> <br> A <span><span
                                                 style="font-family: monospace; font-weight: bold;">Software
                                                 DevelopSX<span class="animate-pulse"
                                                     style="color: rgb(16, 104, 244);">_</span></span></span></h1>
                                 </div>
                                 <div class="mt-6 sm:mt-4 max-w-md mx-auto lg:mx-0">
                                     <p class="text-sm md:text-base max-w-2xl mt-8" style="color: rgb(176, 176, 176);">
-                                        I’m Harsh Kumar, a passionate Software Developer and Founder of NXTVEL
+                                        I’m Kunal Kumar, a passionate Software Developer and Founder of NXTVEL
                                         Technologies. I specialize in building fast, scalable, and secure web
                                         applications using the MERN stack (MongoDB, Express, React, Node.js) and
                                         Next.js. I focus on system design, performance optimization, and automation to
@@ -255,18 +259,18 @@
                                         </div>
                                     </div>
 
-                                    
+
                                     <div class="relative z-10 rounded-full overflow-hidden"
                                         style="width: 100%; height: 100%; position: absolute; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                                         <div class="w-full h-full relative"
                                             style="--mouse-x: 20px; --mouse-y: 289px;"><img
-                                                alt="Harsh - Software Developer (Lit)"
+                                                alt="kunal - Software Developer (Lit)"
                                                 class="absolute top-[58%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-                                                src="https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile.png"
+                                                src="{{ url('/public/assets/image/kunalbg.png') }}"
                                                 style="height: 330px; width: auto; max-width: none; z-index: 1;"><img
-                                                alt="Harsh - Software Developer"
+                                                alt="Kunal - Software Developer"
                                                 class="absolute top-[58%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-200 ease-out pointer-events-none"
-                                                src="https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile-lit.png"
+                                                src="{{ url('/public/assets/image/kunalbg.png') }}"
                                                 style="height: 330px; width: auto; max-width: none; z-index: 2; mask-image: none;">
                                         </div>
                                     </div>
@@ -1208,7 +1212,7 @@
                                         style="background-color: rgb(55, 118, 171); width: 100%;"></div>
                                 </h3>
                             </div><span class="text-lg md:text-xl opacity-80"
-                                style="color: rgb(55, 118, 171);">Harsh - Full Stack Developer</span>
+                                style="color: rgb(55, 118, 171);">Kunal - Full Stack Developer</span>
                             <p class="mt-3 text-base md:text-lg leading-relaxed"
                                 style="color: rgb(245, 245, 245); opacity: 0.9;">Designed and built a fully custom,
                                 animation-rich portfolio to leave a strong first impression with custom theme controls:
@@ -1574,7 +1578,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                     <div class="flex flex-col">
                         <div style="opacity: 0; transform: translateX(-20px);">
-                            <h2 class="text-3xl font-light mb-2" style="color: rgb(16, 104, 244);">Harsh Kumar</h2>
+                            <h2 class="text-3xl font-light mb-2" style="color: rgb(16, 104, 244);">Kunal Kumar</h2>
                             <p class="text-sm uppercase tracking-wider opacity-75"
                                 style="color: rgb(176, 176, 176);">Software Developer &amp; Founder • Full Stack &amp;
                                 UI/UX</p>
@@ -1653,7 +1657,7 @@
                 <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                     <p class="text-xs tracking-wider" style="color: rgb(176, 176, 176); opacity: 0;">© 2026 <a
                             href="https://www.linkedin.com/in/harsh937"><span
-                                style="color: rgb(16, 104, 244);">Harsh</span></a> · Coded with intent, designed with
+                                style="color: rgb(16, 104, 244);">Kunal</span></a> · Coded with intent, designed with
                         care.</p>
                     <div class="flex gap-6"><a href="#" class="text-xs relative group"
                             style="color: rgb(176, 176, 176); opacity: 0; transform: translateY(5px);">Privacy
