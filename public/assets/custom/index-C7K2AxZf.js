@@ -20352,7 +20352,7 @@ const o6 = r6,
         });
     },
     u6 =
-        "I’m Kunal Bhosale, a passionate Software Developer and Founder of NXTVEL Technologies. I specialize in building fast, scalable, and secure web applications using the MERN stack (MongoDB, Express, React, Node.js) and Next.js. I focus on system design, performance optimization, and automation to deliver real-world business value.",
+        "I’m Kunal Bhosale, a passionate Software Developer specializing in building fast, scalable, and secure web applications using PHP (Laravel), the MERN stack (MongoDB, Express, React, Node.js), and Next.js. I focus on system design, performance optimization, and automation to deliver reliable, real-world business solutions.",
     c6 = "Software Developer & Founder",
     // f6 = "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile-lit.png",
     // d6 = "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile.png",
@@ -20471,12 +20471,13 @@ const o6 = r6,
             angle: 216,
             tooltipColor: "#47A248",
         },
+
         {
-            name: "Tailwind",
-            src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
+            name: "MySQL",
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
             size: "large",
-            angle: 288,
-            tooltipColor: "#38B2AC",
+            angle: 290,
+            tooltipColor: "#4479A1",
         },
         {
             name: "HTML5",
@@ -20499,20 +20500,23 @@ const o6 = r6,
             angle: 120,
             tooltipColor: "#F7DF1E",
         },
+
         {
-            name: "Python",
-            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+            name: "Tailwind",
+            src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
             size: "small",
-            angle: 180,
-            tooltipColor: "#3776AB",
+            angle: 300,
+            tooltipColor: "#4479A1",
         },
+
         {
-            name: "Java",
-            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+            name: "PHP",
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
             size: "small",
-            angle: 240,
-            tooltipColor: "#007396",
+            angle: 360, // or 0 if your logic normalizes angles
+            tooltipColor: "#777BB4",
         },
+
         {
             name: "Git",
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
@@ -20734,44 +20738,40 @@ function b6() {
                                 backgroundColor: `${n.primaryColor}08`,
                                 border: `1px solid ${n.border}`,
                             },
-                            children: v.jsxs("p", {
-                                className: "text-lg leading-relaxed",
+                            children: v.jsxs("ul", {
+                                className: "text-lg leading-relaxed space-y-3",
                                 style: { color: n.summeryText },
                                 children: [
                                     v.jsxs("li", {
                                         children: [
                                             v.jsx(u, {
-                                                children:
-                                                    "Next.js, React, TypeScript",
+                                                children: "PHP, Laravel, MySQL",
                                             }),
-                                            ": Architecting type-safe, scalable frontend applications. I leverage Next.js Server Actions and SSR for maximum performance and SEO.",
+                                            ": Designing secure, scalable backend systems with clean architecture, efficient database design, and production-ready APIs.",
                                         ],
                                     }),
                                     v.jsxs("li", {
                                         children: [
                                             v.jsx(u, {
-                                                children:
-                                                    "MERN Stack, MongoDB, Node.js, Convex",
+                                                children: "Next.js, React, TypeScript",
                                             }),
-                                            ": Building robust backend architectures. I specialize in both traditional REST APIs (Express/Mongo) and modern serverless backends for flexible full-stack solutions.",
+                                            ": Architecting type-safe, scalable frontend applications using SSR and modern React patterns for performance and SEO.",
                                         ],
                                     }),
                                     v.jsxs("li", {
                                         children: [
                                             v.jsx(u, {
-                                                children:
-                                                    "TanStack Query, Redux Toolkit, Zod",
+                                                children: "Node.js, Express, MongoDB",
                                             }),
-                                            ": Managing complex server state and enforcing strict data validation. I ensure robust data flow with optimized caching and type integrity.",
+                                            ": Building robust REST APIs and full-stack solutions with scalable and maintainable backend architectures.",
                                         ],
                                     }),
                                     v.jsxs("li", {
                                         children: [
                                             v.jsx(u, {
-                                                children:
-                                                    "Tailwind CSS, Shadcn UI, Framer Motion",
+                                                children: "Tailwind CSS, Shadcn UI",
                                             }),
-                                            ": Expertly crafting clean, animated, and accessible UIs. I guarantee pixel-perfect fidelity from complex Figma mockups.",
+                                            ": Crafting clean, responsive, and accessible user interfaces with pixel-perfect implementation from design systems.",
                                         ],
                                     }),
                                 ],
@@ -22101,14 +22101,14 @@ const aw = () => {
             {
                 id: "linkedin",
                 icon: $6,
-                label: "in/harsh937",
-                url: "https://www.linkedin.com/in/harsh937",
+                label: "in/kunal-bhosale-631473248",
+                url: "https://www.linkedin.com/in/kunal-bhosale-631473248",
                 color: "#0e76a8",
             },
             {
                 id: "github",
                 icon: F6,
-                label: "harsh937",
+                label: "kunal-bhosale-631473248",
                 url: "https://github.com/",
                 color: n.text,
             },
@@ -22208,7 +22208,7 @@ const aw = () => {
                                                         color: n.summeryText,
                                                     },
                                                     children:
-                                                        "Software Developer & Founder • Full Stack & UI/UX",
+                                                        "Software Developer | Full-Stack Web Developer",
                                                 }),
                                             ],
                                         }),
@@ -22275,7 +22275,7 @@ const aw = () => {
                                                 "Open to freelance, consulting, or just a tech chat over coffee.",
                                         }),
                                         v.jsxs(Q.a, {
-                                            href: "https://www.linkedin.com/in/harsh937",
+                                            href: "https://www.linkedin.com/in/kunal-bhosale-631473248",
                                             target: "_blank",
                                             className:
                                                 "px-6 py-3 rounded-full text-sm font-medium relative overflow-hidden",
@@ -22331,7 +22331,7 @@ const aw = () => {
                                         new Date().getFullYear(),
                                         " ",
                                         v.jsx("a", {
-                                            href: "https://www.linkedin.com/in/harsh937",
+                                            href: "https://www.linkedin.com/in/kunal-bhosale-631473248",
                                             children: v.jsx("span", {
                                                 style: {
                                                     color: n.primaryColor,
@@ -24487,7 +24487,7 @@ function Ww() {
                             children: v.jsx(Jw, {
                                 words: [
                                     "Software Developer",
-                                    "Founder @ NXTVEL",
+                                    // "Founder @ NXTVEL",
                                     "Tech Innovator",
                                 ],
                                 wait: 2500,
@@ -25575,7 +25575,7 @@ const Py = [
                             tooltipColor: "#1572B6",
                         },
                         {
-                            name: "Framer",
+                            name: "Framer Motion",
                             src: "https://framerusercontent.com/images/MadJ73ykiBPmXMK5j0iTVYDPACI.png?scale-down-to=512&width=1024&height=1024",
                             tooltipColor: "#0055FF",
                         },
@@ -25585,6 +25585,16 @@ const Py = [
                     id: "backend",
                     title: "Backend",
                     icons: [
+                        {
+                            name: "PHP",
+                            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+                            tooltipColor: "#777BB4",
+                        },
+                        {
+                            name: "Laravel",
+                            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+                            tooltipColor: "#FF2D20",
+                        },
                         {
                             name: "Node.js",
                             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
@@ -25675,6 +25685,7 @@ const Py = [
                     ],
                 },
             ];
+
         return v.jsxs("section", {
             className:
                 "py-24 px-4 sm:px-8 relative overflow-hidden flex flex-col items-center min-h-screen",
@@ -25734,7 +25745,7 @@ const Py = [
                     icon: I6,
                     name: "LinkedIn",
                     color: "#0A66C2",
-                    url: "https://www.linkedin.com/in/harsh937",
+                    url: "https://www.linkedin.com/in/kunal-bhosale-631473248",
                 },
                 {
                     icon: q1,

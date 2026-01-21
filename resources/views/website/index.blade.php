@@ -51,7 +51,7 @@
         "url": "https://harsh-portfolio-iota-six.vercel.app",
         "sameAs": [
             "#",
-            "https://www.linkedin.com/in/harsh937"
+            "https://www.linkedin.com/in/kunal-bhosale-631473248"
         ],
         "knowsAbout": [
             "Next.js",
@@ -605,25 +605,34 @@
                             <div class="mb-10">
                                 <h3 class="text-3xl font-semibold mb-6" style="color: rgb(16, 104, 244);">My
                                     Development Philosophy</h3>
-                                <div class="p-8 rounded-xl"
-                                    style="background-color: rgba(16, 104, 244, 0.03); border: 1px solid rgb(51, 51, 51);">
-                                    <p class="text-lg leading-relaxed" style="color: rgb(176, 176, 176);">
-                                        <li><span style="color: rgb(16, 104, 244);">Next.js, React, TypeScript</span>:
-                                            Architecting type-safe, scalable frontend applications. I leverage Next.js
-                                            Server Actions and SSR for maximum performance and SEO.</li>
-                                        <li><span style="color: rgb(16, 104, 244);">MERN Stack, MongoDB, Node.js,
-                                                Convex</span>: Building robust backend architectures. I specialize in
-                                            both traditional REST APIs (Express/Mongo) and modern serverless backends
-                                            for flexible full-stack solutions.</li>
-                                        <li><span style="color: rgb(16, 104, 244);">TanStack Query, Redux Toolkit,
-                                                Zod</span>: Managing complex server state and enforcing strict data
-                                            validation. I ensure robust data flow with optimized caching and type
-                                            integrity.</li>
-                                        <li><span style="color: rgb(16, 104, 244);">Tailwind CSS, Shadcn UI, Framer
-                                                Motion</span>: Expertly crafting clean, animated, and accessible UIs. I
-                                            guarantee pixel-perfect fidelity from complex Figma mockups.</li>
-                                    </p>
-                                </div>
+                               <div class="p-8 rounded-xl"
+     style="background-color: rgba(16, 104, 244, 0.03); border: 1px solid rgb(51, 51, 51);">
+    
+    <ul class="text-lg leading-relaxed space-y-3" style="color: rgb(176, 176, 176);">
+        
+        <li>
+            <span style="color: rgb(16, 104, 244);">PHP, Laravel, MySQL</span>:
+            Building secure, scalable backend systems with clean architecture and efficient database design.
+        </li>
+
+        <li>
+            <span style="color: rgb(16, 104, 244);">Next.js, React, TypeScript</span>:
+            Developing high-performance, SEO-friendly frontend applications using SSR and modern React patterns.
+        </li>
+
+        <li>
+            <span style="color: rgb(16, 104, 244);">Node.js, Express, MongoDB</span>:
+            Creating robust REST APIs and full-stack solutions with scalable backend architectures.
+        </li>
+
+        <li>
+            <span style="color: rgb(16, 104, 244);">Tailwind CSS, Shadcn UI</span>:
+            Crafting clean, responsive, and accessible user interfaces with pixel-perfect implementation.
+        </li>
+
+    </ul>
+</div>
+
                             </div>
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div class="p-5 rounded-lg flex flex-col"
@@ -1606,7 +1615,7 @@
                                             </svg><span
                                                 class="text-sm font-medium transition-all duration-300 w-0 overflow-hidden group-hover:w-[90px]"
                                                 style="color: rgb(245, 245, 245);">#</span></div>
-                                    </a><a href="https://www.linkedin.com/in/harsh937" target="_blank"
+                                    </a><a href="https://www.linkedin.com/in/kunal-bhosale-631473248" target="_blank"
                                         rel="noopener noreferrer"
                                         class="group flex items-center justify-start h-[50px] w-[50px] rounded-xl shadow-md transition-all duration-300 overflow-hidden hover:w-[160px] hover:rounded-md cursor-pointer"
                                         style="background-color: rgb(18, 18, 18);">
@@ -1622,7 +1631,7 @@
                                                 <circle cx="4" cy="4" r="2"></circle>
                                             </svg><span
                                                 class="text-sm font-medium transition-all duration-300 w-0 overflow-hidden group-hover:w-[90px]"
-                                                style="color: rgb(245, 245, 245);">in/harsh937</span></div>
+                                                style="color: rgb(245, 245, 245);">in/kunal-bhosale-631473248</span></div>
                                     </a><a href="https://github.com/" target="_blank" rel="noopener noreferrer"
                                         class="group flex items-center justify-start h-[50px] w-[50px] rounded-xl shadow-md transition-all duration-300 overflow-hidden hover:w-[160px] hover:rounded-md cursor-pointer"
                                         style="background-color: rgb(18, 18, 18);">
@@ -1636,7 +1645,7 @@
                                                 </path>
                                             </svg><span
                                                 class="text-sm font-medium transition-all duration-300 w-0 overflow-hidden group-hover:w-[90px]"
-                                                style="color: rgb(245, 245, 245);">harsh937</span></div>
+                                                style="color: rgb(245, 245, 245);">kunal-bhosale-631473248</span></div>
                                     </a></div>
                             </div>
                         </div>
@@ -1644,7 +1653,7 @@
                     <div class="flex flex-col items-center lg:items-end" style="opacity: 0;">
                         <p class="text-sm mb-6 text-center lg:text-right" style="color: rgb(176, 176, 176);">Open to
                             freelance, consulting, or just a tech chat over coffee.</p><a
-                            href="https://www.linkedin.com/in/harsh937" target="_blank"
+                            href="https://www.linkedin.com/in/kunal-bhosale-631473248" target="_blank"
                             class="px-6 py-3 rounded-full text-sm font-medium relative overflow-hidden"
                             tabindex="0"
                             style="background-color: rgb(16, 104, 244); color: rgb(30, 30, 30);">Start a conversation
@@ -1656,7 +1665,7 @@
                     style="background-color: rgb(64, 64, 64); transform: scaleX(0);"></div>
                 <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                     <p class="text-xs tracking-wider" style="color: rgb(176, 176, 176); opacity: 0;">© 2026 <a
-                            href="https://www.linkedin.com/in/harsh937"><span
+                            href="https://www.linkedin.com/in/kunal-bhosale-631473248"><span
                                 style="color: rgb(16, 104, 244);">Kunal</span></a> · Coded with intent, designed with
                         care.</p>
                     <div class="flex gap-6"><a href="#" class="text-xs relative group"
