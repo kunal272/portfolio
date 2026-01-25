@@ -10,7 +10,7 @@
     <meta name="description"
         content="Portfolio of Kunal — a Software Developer &amp; Designer specializing in high-performance, type-safe, and secure web applications using Tailwind CSS and advanced architectural patterns.">
     <meta name="keywords"
-        content="Kunal, Next.js Developer, TypeScript Developer, Full-Stack Developer, MERN Stack, React Developer, Convex, Clerk, TanStack Query, Portfolio, UI/UX Designer">
+        content="Kunal, Next.js Developer, TypeScript Developer, Full-Stack Developer, MERN Stack, React Developer, Convex, Clerk, TanStack Query, Portfolio">
     <meta name="author" content="Kunal">
     <meta name="robots" content="index, follow">
     <!-- <meta name="theme-color" content="#171717" /> <link rel="icon" type="image/svg+xml" href="/icons/favicon.ico" /> -->
@@ -129,7 +129,7 @@
                         style="color: rgb(245, 245, 245);">Contact<span
                             class="absolute bottom-0 left-0 h-0.5 transition-all duration-300 w-0 group-hover:w-full"
                             style="background-color: rgb(16, 104, 244);"></span></a></nav>
-                <div class="flex items-center gap-4"><a href="./Kunal_Doc.pdf" target="_blank"
+                <div class="flex items-center gap-4"><a href="{{ url('/public/assets/pdf/KunalBhosaleResume.pdf') }}" target="_blank"
                         rel="noopener noreferrer"><button
                             class="hidden md:flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-white hover:shadow-lg transition-all duration-300 cursor-pointer"
                             style="background: linear-gradient(135deg, rgb(16, 104, 244), rgb(6, 60, 188));">Resume
@@ -188,17 +188,17 @@
                                 </div>
                                 <div class="mt-6 sm:mt-4 max-w-md mx-auto lg:mx-0">
                                     <p class="text-sm md:text-base max-w-2xl mt-8" style="color: rgb(176, 176, 176);">
-                                        I’m Kunal Kumar, a passionate Software Developer and Founder of NXTVEL
+                                        I’m Kunal Bhosale, a passionate Software Developer and Founder of NXTVEL
                                         Technologies. I specialize in building fast, scalable, and secure web
                                         applications using the MERN stack (MongoDB, Express, React, Node.js) and
                                         Next.js. I focus on system design, performance optimization, and automation to
                                         deliver real-world business value.</p>
                                 </div>
                                 <div class="mt-8 flex flex-wrap justify-center lg:justify-start sm:flex-row gap-4"><a
-                                        href="/#projects"><button
+                                        href="#projects"><button
                                             class="px-6 py-3 text-white font-medium rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl cursor-pointer"
                                             style="background: linear-gradient(to right, rgb(16, 104, 244), rgb(6, 60, 188)); box-shadow: rgba(16, 104, 244, 0.3) 0px 0px 15px;">Check
-                                            portfolio</button></a><a href="/#contact"><button
+                                            portfolio</button></a><a href="#contact"><button
                                             class="px-6 py-3 font-medium rounded-lg transition-colors duration-300 ease-in-out hover:bg-[--primary] hover:text-white cursor-pointer"
                                             style="border: 1px solid rgb(16, 104, 244); color: rgb(16, 104, 244); background-color: rgba(16, 104, 244, 0.1); --primary: #1068f4;">Contact
                                             Me</button></a></div>
@@ -332,274 +332,75 @@
                     </div>
                 </div>
                 <div class="flex flex-col lg:flex-row gap-14">
-                    <div class="lg:sticky top-24 h-fit lg:w-1/2">
-                        <h3 class="text-3xl font-semibold mb-8 flex items-center" style="color: rgb(16, 104, 244);">
-                            <span class="w-6 h-6 rounded-full mr-3"
-                                style="background-color: rgba(16, 104, 244, 0.125); border: 2px solid rgb(16, 104, 244);"></span>Work
-                            Experience
-                        </h3>
-                        <div class="space-y-10 relative pl-2">
-                            <div class="absolute left-5 top-0 bottom-0 w-1 rounded-full"
-                                style="background-color: rgb(16, 104, 244);"></div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    💻</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
-                                            Frontend Developer &amp; Team Lead</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>Navindhara Research &amp; IT Organisation
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">Aug
-                                            2025 – Present</span>
-                                        <ol class="text-sm mt-2 " style="color: rgb(176, 176, 176);">
-                                            <li>Led frontend architecture and development using React.js.</li>
-                                            <li>Built reusable UI components and optimized performance.</li>
-                                            <li>Mentored junior developers and conducted code reviews.</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    🚀</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
-                                            Founder &amp; CEO</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>NXTVEL Technologies
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">Oct
-                                            2024 – Present</span>
-                                        <ol class="text-sm mt-2 " style="color: rgb(176, 176, 176);">
-                                            <li>Built an AI-powered website builder platform.</li>
-                                            <li>Delivered custom web &amp; mobile app solutions.</li>
-                                            <li>Managed product, business growth, and client acquisition.</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    📈</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
-                                            Social Media Executive &amp; IT</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>The Bullevents Management Pvt. Ltd.
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">Oct
-                                            2023 – Mar 2025</span>
-                                        <ol class="text-sm mt-2 " style="color: rgb(176, 176, 176);">
-                                            <li>Developed and maintained the official company website.</li>
-                                            <li>Managed content systems and improved engagement.</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    👨&zwj;💻</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
-                                            Frontend Developer</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>Singinn Software Pvt. Ltd.
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">May
-                                            2023 – Jun 2024</span>
-                                        <ol class="text-sm mt-2 " style="color: rgb(176, 176, 176);">
-                                            <li>Worked on frontend development using HTML, CSS, JavaScript.</li>
-                                            <li>Collaborated in team-based environments.</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <h3 class="text-3xl font-semibold mb-8 mt-4 flex items-center"
-                            style="color: rgb(16, 104, 244);"><span class="w-6 h-6 rounded-full mr-3"
-                                style="background-color: rgba(16, 104, 244, 0.125); border: 2px solid rgb(16, 104, 244);"></span>Education
-                            Background</h3>
-                        <div class="space-y-10 relative pl-2">
-                            <div class="absolute left-5 top-0 bottom-0 w-1 rounded-full"
-                                style="background-color: rgb(16, 104, 244);"></div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    🎓</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
-                                            Master of Computer Applications - MCA</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>Lovely Professional University (LPU)
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">Aug
-                                            2025 - Oct 2027</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    🎓</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
-                                            Bachelor of Computer Applications - BCA</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>Mahatma Gandhi Kashi Vidyapith, Varanasi
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">Oct
-                                            2021 - Oct 2024</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    🏫</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
-                                            Intermediate</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>Subhadra Kumar Inter College
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">Completed
-                                            2021</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <h3 class="text-3xl font-semibold mb-8 mt-4 flex items-center"
-                            style="color: rgb(16, 104, 244);"><span class="w-6 h-6 rounded-full mr-3"
-                                style="background-color: rgba(16, 104, 244, 0.125); border: 2px solid rgb(16, 104, 244);"></span>Certifications
-                        </h3>
-                        <div class="space-y-10 relative pl-2">
-                            <div class="absolute left-5 top-0 bottom-0 w-1 rounded-full"
-                                style="background-color: rgb(16, 104, 244);"></div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    📜</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
-                                            Ultimate Web Development Course 2025</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>Instructor: Haris Ali Khan
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">2024</span>
-                                        <ol class="text-sm mt-2 " style="color: rgb(176, 176, 176);">
-                                            <li>Covered HTML5, CSS3, JavaScript, React, Node.js, and responsive website
-                                                development.</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex relative pl-14">
-                                <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
-                                    style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
-                                    🏅</div>
-                                <div class="w-full">
-                                    <div class="p-5 rounded-lg transition-all duration-300"
-                                        style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51); box-shadow: none; transform: translateY(0px);">
-                                        <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">TCS
-                                            MasterCraft™ DataPlus</h4>
-                                        <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
-                                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                                </path>
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                            </svg>TCS MasterCraft™ Academy
-                                        </p><span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
-                                            style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">October
-                                            2022</span>
-                                        <ol class="text-sm mt-2 " style="color: rgb(176, 176, 176);">
-                                            <li>Gained foundational understanding of data management, automation, and
-                                                analytics concepts using TCS DataPlus tools</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Work Experience -->
+<div class="flex relative pl-14">
+    <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
+        style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
+        💻
+    </div>
+    <div class="w-full">
+        <div class="p-5 rounded-lg transition-all duration-300"
+            style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51);">
+            <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
+                Software Developer
+            </h4>
+            <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
+                    viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                Biz Secure Lab Pvt. Ltd. (NPAV), Pune
+            </p>
+            <span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
+                style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">
+                Jul 2024 – Present
+            </span>
+            <ol class="text-sm mt-2" style="color: rgb(176, 176, 176);">
+                <li>Developing web applications using PHP & Laravel.</li>
+                <li>Working with HTML, CSS, Bootstrap, JavaScript, jQuery, and AJAX.</li>
+                <li>Collaborating on feature development and bug fixes.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<div class="flex relative pl-14">
+    <div class="absolute left-0 w-10 h-10 rounded-full flex items-center justify-center text-xl z-10"
+        style="background-color: rgb(18, 18, 18); border: 3px solid rgb(16, 104, 244); box-shadow: rgb(18, 18, 18) 0px 0px 0px 4px; color: rgb(16, 104, 244);">
+        🛠️
+    </div>
+    <div class="w-full">
+        <div class="p-5 rounded-lg transition-all duration-300"
+            style="background-color: rgb(18, 18, 18); border: 1px solid rgb(51, 51, 51);">
+            <h4 class="text-xl font-semibold mb-2" style="color: rgb(245, 245, 245);">
+                Trainee Engineer
+            </h4>
+            <p class="text-sm mb-2 flex items-center" style="color: rgb(176, 176, 176);">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor"
+                    viewBox="0 0 24 24" style="color: rgb(16, 104, 244);">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                Sanity Technology, Pune
+            </p>
+            <span class="inline-block px-3 py-1 text-xs font-semibold rounded-full"
+                style="background-color: rgba(16, 104, 244, 0.082); color: rgb(16, 104, 244); border: 1px solid rgba(16, 104, 244, 0.19);">
+                Jan 2024 – Apr 2024
+            </span>
+            <ol class="text-sm mt-2" style="color: rgb(176, 176, 176);">
+                <li>Hands-on experience with PHP-based applications.</li>
+                <li>Worked on backend logic and frontend integration.</li>
+                <li>Learned industry coding standards and workflows.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
                     <div class="lg:w-1/2">
                         <div class="sticky top-24">
                             <div class="mb-10">
@@ -875,18 +676,31 @@
                                 style="opacity: 0; transform: scale(0.8);">Firebase</div>
                         </div>
                         <div
-                            class="flex flex-col items-center justify-center p-3 rounded-2xl group relative transition-all duration-300">
-                            <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none"
-                                style="background-color: rgb(242, 78, 30);"></div>
-                            <div class="w-12 h-12 mb-2 flex items-center justify-center relative"><img alt="Java"
-                                    class="w-full h-full object-contain filter drop-shadow-sm transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(0,0,0,0.2)]"
-                                    src="https://cdn-icons-png.flaticon.com/512/226/226777.png"
-                                    style="filter: drop-shadow(rgba(242, 78, 30, 0.25) 0px 0px 2px);"></div><span
-                                class="text-[10px] uppercase font-bold tracking-widest opacity-60 group-hover:opacity-100 transition-opacity duration-300 text-center"
-                                style="color: rgb(255, 255, 255);">Java</span>
-                            <div class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 rounded bg-black/80 text-white text-[10px] whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-300 z-50"
-                                style="opacity: 0; transform: scale(0.8);">Java</div>
-                        </div>
+    class="flex flex-col items-center justify-center p-3 rounded-2xl group relative transition-all duration-300">
+    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none"
+        style="background-color: rgb(0, 117, 143);"></div>
+
+    <div class="w-12 h-12 mb-2 flex items-center justify-center relative">
+        <img
+            alt="MySQL"
+            class="w-full h-full object-contain filter drop-shadow-sm transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(0,0,0,0.2)]"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            style="filter: drop-shadow(rgba(0, 117, 143, 0.35) 0px 0px 2px);">
+    </div>
+
+    <span
+        class="text-[10px] uppercase font-bold tracking-widest opacity-60 group-hover:opacity-100 transition-opacity duration-300 text-center"
+        style="color: rgb(255, 255, 255);">
+        MySQL
+    </span>
+
+    <div
+        class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 rounded bg-black/80 text-white text-[10px] whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-300 z-50"
+        style="opacity: 0; transform: scale(0.8);">
+        MySQL
+    </div>
+</div>
+
                         <div
                             class="flex flex-col items-center justify-center p-3 rounded-2xl group relative transition-all duration-300">
                             <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none"
@@ -1140,24 +954,40 @@
                         <div class="w-4 h-4 rounded-full border-3 absolute top-[29%] left-1/2 -translate-x-1/2 z-10 hidden sm:flex items-center justify-center"
                             style="border-color: rgb(227, 79, 38); background-color: rgb(18, 18, 18); box-shadow: none; transform: none;">
                         </div>
-                        <div class="flex w-full relative justify-center sm:order-2 sm:justify-end">
-                            <div class="relative group max-w-[500px] w-full"><img
-                                    class="w-full rounded-lg shadow-xl border border-opacity-10"
-                                    alt="Nxtvel - Digital Marketplace" loading="lazy"
-                                    src="https://harsh-portfolio-zeta-ruby.vercel.app/nxtvel-website.png"
-                                    style="border-color: rgb(51, 51, 51); transform-origin: right center;">
-                                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                    style="background-color: rgba(227, 79, 38, 0.19); opacity: 0;"><span
-                                        class="text-white bg-black bg-opacity-70 px-4 py-2 rounded-full text-sm flex items-center border border-white border-opacity-20"
-                                        style="transform: translateY(10px);">View Project<svg
-                                            xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2"
-                                            viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg></span></div>
-                            </div>
-                        </div>
+                       <div class="flex w-full relative justify-center sm:order-2 sm:justify-end">
+    <div class="relative group max-w-[500px] w-full">
+        <img
+            class="w-full rounded-lg shadow-xl border border-opacity-10"
+            alt="WhatsApp Bulk Messaging Tool"
+            loading="lazy"
+            src="{{ url('/public/assets/image/whatsapp-bulk-tool.jpeg') }}"
+            style="border-color: rgb(51, 51, 51); transform-origin: right center;"
+        >
+
+        <div
+            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            style="background-color: rgba(37, 211, 102, 0.18);">
+            
+            <span
+                class="text-white bg-black bg-opacity-70 px-4 py-2 rounded-full text-sm flex items-center border border-white border-opacity-20"
+                style="transform: translateY(10px);">
+                
+                View Project
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 ml-2"
+                    viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path
+                        fill-rule="evenodd"
+                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd">
+                    </path>
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
                         <div class="w-full sm:order-1" style="color: rgb(245, 245, 245); transform: none;">
                             <div>
                                 <h3 class="font-bold text-3xl md:text-4xl mb-1 cursor-pointer inline-block relative"
@@ -1199,7 +1029,7 @@
                             <div class="relative group max-w-[500px] w-full"><img
                                     class="w-full rounded-lg shadow-xl border border-opacity-10"
                                     alt="Modern Portfolio" loading="lazy"
-                                    src="https://harsh-portfolio-zeta-ruby.vercel.app/harsh-kumar.png"
+                                    src="{{ url('/public/assets/image/kunal_portfolio.jpeg') }}"
                                     style="border-color: rgb(51, 51, 51); transform-origin: left center;">
                                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                     style="background-color: rgba(55, 118, 171, 0.19); opacity: 0;"><span
@@ -1312,20 +1142,19 @@
                 <div class="relative z-10 p-6 md:p-8">
                     <div class="flex items-start gap-4">
                         <div>
-                            <p class="text-lg md:text-xl leading-relaxed" style="color: rgb(245, 245, 245);"><span
-                                    class="font-bold" style="color: rgb(16, 104, 244);">Project Selection:
-                                </span>During my learning journey, I built several practice projects including <span
-                                    class="font-medium" style="color: rgb(59, 130, 246);">calculator</span>, <span
-                                    class="font-medium" style="color: rgb(59, 130, 246);">watches</span>, <span
-                                    class="font-medium" style="color: rgb(59, 130, 246);">website clones</span>, and
-                                <span class="font-medium" style="color: rgb(59, 130, 246);">many more</span> to
-                                sharpen my skills. The projects shown above represent my <span class="font-semibold"
-                                    style="color: rgb(16, 185, 129);">best work</span> — fully designed and developed
-                                from scratch, showcasing complete <span class="font-semibold"
-                                    style="color: rgb(251, 191, 36);">UI/UX ownership</span> and <span
-                                    class="font-semibold" style="color: rgb(251, 191, 36);">project building
-                                    logic</span>.
-                            </p>
+                            <p class="text-lg md:text-xl leading-relaxed" style="color: rgb(245, 245, 245);">
+    <span class="font-bold" style="color: rgb(16, 104, 244);">Project Selection:</span>
+    During my learning journey, I built several practice projects including 
+    <span class="font-medium" style="color: rgb(59, 130, 246);">calculator</span>, 
+    <span class="font-medium" style="color: rgb(59, 130, 246);">watches</span>, 
+    <span class="font-medium" style="color: rgb(59, 130, 246);">website clones</span>, and 
+    <span class="font-medium" style="color: rgb(59, 130, 246);">many more</span> to 
+    sharpen my skills. The projects shown above represent my 
+    <span class="font-semibold" style="color: rgb(16, 185, 129);">best work</span> — 
+    fully designed and developed from scratch, showcasing complete 
+    <span class="font-semibold" style="color: rgb(251, 191, 36);">project building logic</span>.
+</p>
+
                             <div class="mt-6 pt-4 flex flex-wrap items-center justify-between gap-4 border-t"
                                 style="border-color: rgb(64, 64, 64); opacity: 0;">
                                 <div class="flex items-center gap-2">
@@ -1369,115 +1198,109 @@
                     </div>
                 </div>
                 <div class="space-y-6">
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">What technologies do you specialize in?</span><span
-                                class="transition-transform duration-300" style="transform: none;"><svg
-                                    width="18" height="18" stroke="currentColor" fill="none"
-                                    stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">What kind of projects have you built?</span><span
-                                class="transition-transform duration-300" style="transform: none;"><svg
-                                    width="18" height="18" stroke="currentColor" fill="none"
-                                    stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">Do you have experience with DevOps and
-                                Deployment?</span><span class="transition-transform duration-300"
-                                style="transform: none;"><svg width="18" height="18"
-                                    stroke="currentColor" fill="none" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">How do you ensure code quality and
-                                stability?</span><span class="transition-transform duration-300"
-                                style="transform: none;"><svg width="18" height="18"
-                                    stroke="currentColor" fill="none" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">Do you have full-stack development
-                                experience?</span><span class="transition-transform duration-300"
-                                style="transform: none;"><svg width="18" height="18"
-                                    stroke="currentColor" fill="none" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">Are your projects mobile responsive?</span><span
-                                class="transition-transform duration-300" style="transform: none;"><svg
-                                    width="18" height="18" stroke="currentColor" fill="none"
-                                    stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">How do you optimize application performance?</span><span
-                                class="transition-transform duration-300" style="transform: none;"><svg
-                                    width="18" height="18" stroke="currentColor" fill="none"
-                                    stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">What is your approach to security?</span><span
-                                class="transition-transform duration-300" style="transform: none;"><svg
-                                    width="18" height="18" stroke="currentColor" fill="none"
-                                    stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                    <div class="rounded-2xl border overflow-hidden"
-                        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
-                        <button
-                            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
-                            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);"><span
-                                class="text-lg font-semibold">What are you currently learning or
-                                improving?</span><span class="transition-transform duration-300"
-                                style="transform: none;"><svg width="18" height="18"
-                                    stroke="currentColor" fill="none" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg></span></button>
-                    </div>
-                </div>
+
+    <div class="rounded-2xl border overflow-hidden"
+        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
+        <button
+            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
+            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);">
+            <span class="text-lg font-semibold">What technologies do you specialize in?</span>
+            <span class="transition-transform duration-300">
+                <svg width="18" height="18" stroke="currentColor" fill="none" stroke-width="2">
+                    <path d="M12 5v14M5 12h14"></path>
+                </svg>
+            </span>
+        </button>
+
+        <div class="px-6 pb-5 text-sm leading-relaxed"
+            style="color: rgb(200, 200, 200); display: none;">
+            I specialize in Java, Spring Boot, Laravel, Node.js, React, MySQL, REST APIs, and modern
+            full-stack web application development.
+        </div>
+    </div>
+
+    <div class="rounded-2xl border overflow-hidden"
+        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
+        <button
+            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
+            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);">
+            <span class="text-lg font-semibold">What kind of projects have you built?</span>
+            <span class="transition-transform duration-300">
+                <svg width="18" height="18" stroke="currentColor" fill="none" stroke-width="2">
+                    <path d="M12 5v14M5 12h14"></path>
+                </svg>
+            </span>
+        </button>
+
+        <div class="px-6 pb-5 text-sm leading-relaxed"
+            style="color: rgb(200, 200, 200); display: none;">
+            I have built ERP systems, CRM platforms, WhatsApp automation tools, SaaS dashboards,
+            admin panels, REST APIs, and scalable business applications.
+        </div>
+    </div>
+
+    <div class="rounded-2xl border overflow-hidden"
+        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
+        <button
+            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
+            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);">
+            <span class="text-lg font-semibold">Do you have experience with DevOps and Deployment?</span>
+            <span class="transition-transform duration-300">
+                <svg width="18" height="18" stroke="currentColor" fill="none" stroke-width="2">
+                    <path d="M12 5v14M5 12h14"></path>
+                </svg>
+            </span>
+        </button>
+
+        <div class="px-6 pb-5 text-sm leading-relaxed"
+            style="color: rgb(200, 200, 200); display: none;">
+            Yes, I have experience with Linux servers, Docker, CI/CD pipelines, cloud deployment,
+            domain configuration, SSL, and production monitoring.
+        </div>
+    </div>
+
+    <div class="rounded-2xl border overflow-hidden"
+        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
+        <button
+            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
+            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);">
+            <span class="text-lg font-semibold">How do you ensure code quality and stability?</span>
+            <span class="transition-transform duration-300">
+                <svg width="18" height="18" stroke="currentColor" fill="none" stroke-width="2">
+                    <path d="M12 5v14M5 12h14"></path>
+                </svg>
+            </span>
+        </button>
+
+        <div class="px-6 pb-5 text-sm leading-relaxed"
+            style="color: rgb(200, 200, 200); display: none;">
+            I follow clean code principles, proper validation, version control, code reviews,
+            testing, and structured architecture patterns.
+        </div>
+    </div>
+
+    <div class="rounded-2xl border overflow-hidden"
+        style="border-color: rgb(51, 51, 51); background-color: rgb(30, 30, 30); opacity: 0; transform: translateY(20px);">
+        <button
+            class="flex w-full justify-between items-center px-6 py-5 text-left group cursor-pointer"
+            style="color: rgb(245, 245, 245); background-color: rgba(16, 104, 244, 0.03);">
+            <span class="text-lg font-semibold">Do you have full-stack development experience?</span>
+            <span class="transition-transform duration-300">
+                <svg width="18" height="18" stroke="currentColor" fill="none" stroke-width="2">
+                    <path d="M12 5v14M5 12h14"></path>
+                </svg>
+            </span>
+        </button>
+
+        <div class="px-6 pb-5 text-sm leading-relaxed"
+            style="color: rgb(200, 200, 200); display: none;">
+            Yes, I work on both frontend and backend, handling UI, APIs, databases, authentication,
+            and performance optimization.
+        </div>
+    </div>
+
+</div>
+
             </div>
         </section>
         <section id="contact" class="overflow-hidden" style="background-color: rgb(18, 18, 18);">
@@ -1544,9 +1367,9 @@
                                     </svg></i></div>
                             <div>
                                 <h4 class="text-sm uppercase tracking-wider mb-1"
-                                    style="color: rgb(176, 176, 176);">Email</h4><a href="mailto:team@nxtvel.com"
+                                    style="color: rgb(176, 176, 176);">Email</h4><a href="mailto:bhosalekunal695@gmail.com"
                                     class="text-lg font-medium hover:underline transition-all duration-300"
-                                    style="color: rgb(245, 245, 245);">team@nxtvel.com<span
+                                    style="color: rgb(245, 245, 245);">bhosalekunal695@gmail.com<span
                                         class="inline-block ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">↗</span></a>
                             </div>
                         </div>
@@ -1569,7 +1392,7 @@
                         <div class="rounded-xl overflow-hidden h-52 w-full border relative"
                             style="background-color: rgb(51, 51, 51); border: 1px solid rgb(51, 51, 51); opacity: 0; transform: translateY(20px);">
                             <div class="absolute inset-0 flex items-center justify-center"><iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.14624663976!2d82.8434516455106!3d25.320844293712756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1766128995015!5m2!1sen!2sin"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.115748081497!2d73.82558321509912!3d18.446765784404915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e7b92f795d77%3A0x53adf3105f446c93!2sHotel%20Maratha%20Veg%20nonveg%2C%20Zeal%20College%20Rd%2C%20Narhe%2C%20Pune%2C%20Maharashtra%20411041%2C%20India!5e0!3m2!1sen!2sin!4v1700000000000"
                                     width="100%" height="100%" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade" style="border: 0px;"></iframe></div>
                         </div>
@@ -1587,7 +1410,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                     <div class="flex flex-col">
                         <div style="opacity: 0; transform: translateX(-20px);">
-                            <h2 class="text-3xl font-light mb-2" style="color: rgb(16, 104, 244);">Kunal Kumar</h2>
+                            <h2 class="text-3xl font-light mb-2" style="color: rgb(16, 104, 244);">Kunal Bhosale</h2>
                             <p class="text-sm uppercase tracking-wider opacity-75"
                                 style="color: rgb(176, 176, 176);">Software Developer &amp; Founder • Full Stack &amp;
                                 UI/UX</p>

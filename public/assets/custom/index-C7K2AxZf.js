@@ -20353,91 +20353,81 @@ const o6 = r6,
     },
     u6 =
         "I’m Kunal Bhosale, a passionate Software Developer specializing in building fast, scalable, and secure web applications using PHP (Laravel), the MERN stack (MongoDB, Express, React, Node.js), and Next.js. I focus on system design, performance optimization, and automation to deliver reliable, real-world business solutions.",
-    c6 = "Software Developer & Founder",
+    c6 = "Full-Stack Software Developer",
     // f6 = "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile-lit.png",
     // d6 = "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-profile.png",
     f6 = baseUrl + "/public/assets/image/kunalbg.png",
     d6 = baseUrl + "/public/assets/image/kunalbg.png",
     h6 = [
         {
-            title: "Frontend Developer & Team Lead",
-            location: "Navindhara Research & IT Organisation",
-            duration: "Aug 2025 – Present",
+            title: "Software Developer",
+            location: "Biz Secure Lab Pvt. Ltd. (NPAV), Pune",
+            duration: "Jul 2024 – Present",
             description: [
-                "Led frontend architecture and development using React.js.",
-                "Built reusable UI components and optimized performance.",
-                "Mentored junior developers and conducted code reviews.",
+                "Working as a Software Developer on PHP and Laravel-based applications.",
+                "Developing and maintaining web modules using HTML, CSS, Bootstrap, JavaScript, jQuery, and AJAX.",
+                "Collaborating with team members to implement new features and fix bugs.",
             ],
             icon: "💻",
         },
         {
-            title: "Founder & CEO",
-            location: "NXTVEL Technologies",
-            duration: "Oct 2024 – Present",
+            title: "Trainee Engineer",
+            location: "Sanity Technology, Pune",
+            duration: "Jan 2024 – Apr 2024",
             description: [
-                "Built an AI-powered website builder platform.",
-                "Delivered custom web & mobile app solutions.",
-                "Managed product, business growth, and client acquisition.",
+                "Gained hands-on experience in PHP and web application development.",
+                "Worked on backend logic and frontend integration.",
+                "Learned industry-level coding standards and development workflows.",
             ],
-            icon: "🚀",
-        },
-        {
-            title: "Social Media Executive & IT",
-            location: "The Bullevents Management Pvt. Ltd.",
-            duration: "Oct 2023 – Mar 2025",
-            description: [
-                "Developed and maintained the official company website.",
-                "Managed content systems and improved engagement.",
-            ],
-            icon: "📈",
-        },
-        {
-            title: "Frontend Developer",
-            location: "Singinn Software Pvt. Ltd.",
-            duration: "May 2023 – Jun 2024",
-            description: [
-                "Worked on frontend development using HTML, CSS, JavaScript.",
-                "Collaborated in team-based environments.",
-            ],
-            icon: "👨‍💻",
+            icon: "🛠️",
         },
     ],
     m6 = [
         {
-            location: "Lovely Professional University (LPU)",
-            duration: "Aug 2025 - Oct 2027",
-            title: "Master of Computer Applications - MCA",
+            location: "Savitribai Phule University, Pune (SPPU)",
+            duration: "Nov 2022 – May 2024",
+            title: "Master of Computer Applications (MCA)",
             icon: "🎓",
         },
         {
-            location: "Mahatma Gandhi Kashi Vidyapith, Varanasi",
-            duration: "Oct 2021 - Oct 2024",
-            title: "Bachelor of Computer Applications - BCA",
+            location: "Savitribai Phule University, Pune",
+            duration: "Jul 2019 – Aug 2022",
+            title: "B.Sc. in Computer Science",
             icon: "🎓",
         },
         {
-            location: "Subhadra Kumar Inter College",
-            duration: "Completed 2021",
-            title: "Intermediate",
+            location: "State Board of Maharashtra, Satara",
+            duration: "Jul 2017 – Mar 2019",
+            title: "HSC (Higher Secondary Certificate)",
+            icon: "🏫",
+        },
+        {
+            location: "State Board of Maharashtra, Satara",
+            duration: "Jun 2016 – Mar 2017",
+            title: "SSC (Secondary School Certificate)",
             icon: "🏫",
         },
     ],
     p6 = [
         {
-            title: "Ultimate Web Development Course 2025",
-            location: "Instructor: Haris Ali Khan",
-            duration: "2024",
+            title: "Session Tracker – Laravel PHP Project",
+            location: "Personal / Company Project",
+            duration: "Nov 2024 – Present",
             description: [
-                "Covered HTML5, CSS3, JavaScript, React, Node.js, and responsive website development.",
+                "Developed using Laravel (PHP), HTML, CSS, Bootstrap, AJAX, jQuery, and MySQL.",
+                "Designed system architecture and database schema.",
+                "Implemented roles: Employee, Team Lead, Admin, and Master Admin.",
+                "Built admin dashboard for session tracking, reporting, and issue management.",
             ],
-            icon: "📜",
+            icon: "📊",
         },
         {
             title: "TCS MasterCraft™ DataPlus",
             location: "TCS MasterCraft™ Academy",
-            duration: "October 2022",
+            duration: "Oct 2022",
             description: [
-                "Gained foundational understanding of data management, automation, and analytics concepts using TCS DataPlus tools",
+                "Learned fundamentals of data management, automation, and analytics.",
+                "Gained exposure to enterprise-level tools and workflows.",
             ],
             icon: "🏅",
         },
@@ -20513,7 +20503,7 @@ const o6 = r6,
             name: "PHP",
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
             size: "small",
-            angle: 360, // or 0 if your logic normalizes angles
+            angle: 210, // or 0 if your logic normalizes angles
             tooltipColor: "#777BB4",
         },
 
@@ -21275,13 +21265,13 @@ const L6 = () => {
                                     {
                                         icon: "Mail",
                                         title: "Email",
-                                        value: "team@nxtvel.com",
-                                        href: "mailto:team@nxtvel.com",
+                                        value: "bhosalekunal695@gmail.com",
+                                        href: "mailto:bhosalekunal695@gmail.com",
                                     },
                                     {
                                         icon: "MapPin",
                                         title: "Location",
-                                        value: "Varanasi, Uttar Pradesh, India",
+                                        value: "Pune, Maharashtra, India",
                                     },
                                 ].map((r, u) =>
                                     v.jsxs(
@@ -21439,7 +21429,7 @@ const L6 = () => {
                                         className:
                                             "absolute inset-0 flex items-center justify-center",
                                         children: v.jsx("iframe", {
-                                            src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.14624663976!2d82.8434516455106!3d25.320844293712756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1766128995015!5m2!1sen!2sin",
+                                            src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.115748081497!2d73.82558321509912!3d18.446765784404915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e7b92f795d77%3A0x53adf3105f446c93!2sHotel%20Maratha%20Veg%20nonveg%2C%20Zeal%20College%20Rd%2C%20Narhe%2C%20Pune%2C%20Maharashtra%20411041%2C%20India!5e0!3m2!1sen!2sin!4v1700000000000",
                                             width: "100%",
                                             height: "100%",
                                             style: { border: 0 },
@@ -21461,39 +21451,39 @@ const L6 = () => {
     U6 = [
         {
             question: "What technologies do you specialize in?",
-            answer: "I specialize in the modern Next.js ecosystem, combining full-stack development with DevOps principles. My core stack includes TypeScript, Next.js (App Router), and Docker for containerization. I build robust backends using both the MERN stack and serverless solutions like Convex, ensuring end-to-end type safety.",
+            answer: "I specialize in full-stack web development using modern and reliable technologies. My primary stack includes JavaScript/TypeScript, React, Node.js, Laravel, REST APIs, and relational databases like MySQL, along with cloud deployment and Docker-based environments.",
         },
         {
             question: "What kind of projects have you built?",
-            answer: "I build production-ready systems, not just hobby projects. My flagship app, 'Ezensi' (Live), is an AI-Native Blog Platform containerized with Docker and deployed via CI/CD on Render. I've also architected 'ShopEase,' a high-performance eCommerce app with advanced caching, and a secure Next.js full-stack system with custom auth.",
+            answer: "I have built real-world, production-grade applications such as admin panels, ERP systems, SaaS platforms, RESTful APIs, automation tools, and business dashboards focused on performance, scalability, and security.",
         },
         {
             question: "Do you have experience with DevOps and Deployment?",
-            answer: "Yes. I move beyond basic deployments by using Docker to containerize applications, ensuring consistent environments from development to production. I implement Multi-Stage builds to optimize image sizes (reducing my latest app to ~276MB) and set up automated CI/CD pipelines on platforms like Render.",
+            answer: "Yes. I have hands-on experience deploying applications on Linux servers, configuring domains, SSL, Docker containers, and CI/CD pipelines to ensure stable and scalable production environments.",
         },
         {
             question: "How do you ensure code quality and stability?",
-            answer: "I enforce a strict quality standard using Husky, ESLint, and Prettier for pre-commit checks. Beyond syntax, I use Docker to prevent 'it works on my machine' issues, and I strictly validate all data using Zod to ensure type integrity across the full stack.",
+            answer: "I follow clean code principles, proper validation, modular architecture, version control, and testing practices. I also ensure consistency across environments to reduce bugs and deployment issues.",
         },
         {
             question: "Do you have full-stack development experience?",
-            answer: "Yes, I am comfortable across the entire stack. I build scalable backends using Node.js/Express (MERN) and Serverless (Convex). My expertise includes designing database schemas (MongoDB/MySQL), handling complex state with Redux/TanStack Query, and securing APIs with Clerk or custom JWT implementation.",
+            answer: "Yes. I work across the entire stack, handling frontend UI development, backend APIs, database design, authentication, authorization, and performance optimization.",
         },
         {
             question: "Are your projects mobile responsive?",
-            answer: "Absolutely. I follow a mobile-first approach using Tailwind CSS and Shadcn UI. I rigorously test across devices to ensure seamless UX, maintaining 90+ Lighthouse performance scores even on mobile networks.",
+            answer: "Yes. All my projects follow a mobile-first approach and are fully responsive across devices, ensuring a consistent and user-friendly experience on mobile, tablet, and desktop.",
         },
         {
             question: "How do you optimize application performance?",
-            answer: "Performance is a priority. I use TanStack Query for aggressive caching and Next.js Server Actions to minimize client-side JavaScript. I also optimize Docker images for faster cold starts and implement debouncing and code-splitting to keep the application lightweight.",
+            answer: "I focus on efficient database queries, caching strategies, optimized APIs, code splitting, and minimizing unnecessary client-side processing to ensure fast and reliable applications.",
         },
         {
             question: "What is your approach to security?",
-            answer: "I believe in security by design. I implement HTTP-only cookies for session management, use Bcrypt for password hashing, and protect API routes with Middleware. I also ensure strict environment variable isolation to keep production secrets safe.",
+            answer: "I implement security best practices such as secure authentication, encrypted passwords, protected APIs, proper access control, and safe handling of environment variables and sensitive data.",
         },
         {
             question: "What are you currently learning or improving?",
-            answer: "I am currently focused on advanced Engineering best practices. I am diving deeper into Unit Testing with Jest/React Testing Library to ensure rock-solid reliability, and I am exploring System Design patterns to build even more scalable architectures.",
+            answer: "I am continuously improving my skills in system design, application scalability, testing strategies, and modern backend architectures to build more robust and maintainable systems.",
         },
     ],
     k6 = (n, a, s) => {
@@ -23642,7 +23632,7 @@ const Yc = localStorage.getItem("theme") || "dark",
                         className: "flex items-center gap-4",
                         children: [
                             v.jsx("a", {
-                                href: "./Kunal_Doc.pdf",
+                                href: baseUrl + "/public/assets/pdf/KunalBhosaleResume.pdf",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 children: v.jsxs("button", {
@@ -24510,7 +24500,7 @@ function Ww() {
                     "mt-8 flex flex-wrap justify-center lg:justify-start sm:flex-row gap-4",
                 children: [
                     v.jsx("a", {
-                        href: "/#projects",
+                        href: "#projects",
                         children: v.jsx("button", {
                             className:
                                 "px-6 py-3 text-white font-medium rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl cursor-pointer",
@@ -24522,7 +24512,7 @@ function Ww() {
                         }),
                     }),
                     v.jsx("a", {
-                        href: "/#contact",
+                        href: "#contact",
                         children: v.jsx("button", {
                             className:
                                 "px-6 py-3 font-medium rounded-lg transition-colors duration-300 ease-in-out hover:bg-[--primary] hover:text-white cursor-pointer",
@@ -25126,15 +25116,15 @@ const Py = [
         projectColor: "#9333ea",
     },
     {
-        title: "Nxtvel - Digital Marketplace",
-        subtitle: "Website, Apps, Scripts & Video Templates",
+        title: "WhatsApp Bulk Messaging Tool",
+        subtitle: "Bulk Messaging, Automation & Campaign Management",
         description:
-            "Nxtvel is a modern digital marketplace offering ready-to-use websites, mobile apps, scripts, and professional video templates. It helps businesses and creators launch faster with high-quality, customizable Temaples",
-        tags: ["React", "Supabase", "Node.js", "Framer"],
-        image: "https://harsh-portfolio-zeta-ruby.vercel.app/nxtvel-website.png",
-        liveDemo: "https://www.nxtvel.com/",
-        githubRepo: "https://www.nxtvel.com/about",
-        projectColor: "#E34F26",
+            "A professional WhatsApp bulk messaging system built using a Node.js API with a Laravel-based admin panel. The platform allows businesses to send bulk messages, manage contacts, schedule campaigns, and track delivery status securely and efficiently.",
+        tags: ["Node.js", "Express", "PHP", "Laravel", "MySQL", "WhatsApp API"],
+        image: baseUrl + "/public/assets/image/whatsapp-bulk-tool.jpeg",
+        liveDemo: "#",
+        githubRepo: "#",
+        projectColor: "#25D366",
     },
     {
         title: "Modern Portfolio",
@@ -25149,7 +25139,7 @@ const Py = [
             "Email Js",
             "AI",
         ],
-        image: "https://harsh-portfolio-zeta-ruby.vercel.app/harsh-kumar.png",
+        image: baseUrl + "/public/assets/image/kunal_portfolio.jpeg",
         liveDemo: "#",
         githubRepo: "#",
         projectColor: "#3776AB",
@@ -25362,21 +25352,11 @@ const Py = [
                                                     style: {
                                                         color: n.accentGold,
                                                     },
-                                                    children: "UI/UX ownership",
-                                                }),
-                                                " ",
-                                                "and",
-                                                " ",
-                                                v.jsx("span", {
-                                                    className: "font-semibold",
-                                                    style: {
-                                                        color: n.accentGold,
-                                                    },
-                                                    children:
-                                                        "project building logic",
+                                                    children: "project building logic",
                                                 }),
                                                 ".",
                                             ],
+
                                         }),
                                         v.jsxs(Q.div, {
                                             className:
@@ -25616,8 +25596,8 @@ const Py = [
                             tooltipColor: "#FFCA28",
                         },
                         {
-                            name: "Java",
-                            src: "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+                            name: "MYSQL",
+                            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
                             tooltipColor: "#F24E1E",
                         },
                         {
@@ -25738,7 +25718,7 @@ const Py = [
                     icon: W6,
                     name: "Instagram",
                     color: "#E4405F",
-                    url: "https://www.instagram.com/nxtvel/",
+                    url: "https://www.instagram.com/krunal__2451/",
                 },
                 { icon: J6, name: "GitHub", color: "#181717", url: "#" },
                 {
